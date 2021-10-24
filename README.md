@@ -6,3 +6,7 @@ Things can improve
 3. Form data validation should be integrated in backend
 4. Hourly max capacity can add on
 5. Appointments edit page can have more validation
+
+You may see the live site on netlify via following url
+
+https://vaccinationaappointment.netlify.app/
