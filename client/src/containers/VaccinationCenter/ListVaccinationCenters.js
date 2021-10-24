@@ -50,7 +50,7 @@ function Row(props) {
         </TableCell>
         <TableCell align="left">{row.daily_max_capacity}</TableCell>
         <TableCell align="left">
-          <Button component={Link} to={'/bookings/' + row._id}>
+          <Button>
             <ModeEditIcon />
           </Button>
           <Button onClick={() => props.deleteVaccinationCenter(row._id)}>
