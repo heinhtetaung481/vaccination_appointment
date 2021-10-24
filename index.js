@@ -9,7 +9,6 @@ import {
 import { AppointmentsRoutes, VaccinationCenterRoutes } from './routes/index.js'
 
 const app = express()
-const port = 3000
 
 app.use(express.json())
 app.use(express.urlencoded())
@@ -25,7 +24,7 @@ app.use('/appointments', AppointmentsRoutes)
 
 mongoose.connect(MONGODB, {useNewUrlParser: true, useUnifiedTopology: true})
   .then(() => {
-    app.listen(PORT, () => {
+    app.listen(process.env.PORT || PORT, () => {
       console.log(`port is listening at http://localhost:${PORT}`)
     })
   })
