@@ -10,3 +10,5 @@ Things can improve
 You may see the live site on netlify via following url
 
 https://vaccinationaappointment.netlify.app/
+
+deployed backend app on heroku and client site on netlify
